@@ -1,0 +1,6 @@
+---
+- name: install zip in ubuntu
+  apt:
+   name: zip
+   state: present
+   update_cache: true

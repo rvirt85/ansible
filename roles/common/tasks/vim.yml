@@ -1,0 +1,6 @@
+---
+- name: install vim in ubuntu
+  apt:
+   name: vim
+   state: present
+   update_cache: true

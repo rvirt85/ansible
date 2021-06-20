@@ -1,0 +1,4 @@
+---
+- name: install vim and zip on ubuntu
+  import_tasks: main.yml
+  when: ansible_facts['os_family']|lower == 'ubuntu' 

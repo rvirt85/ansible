@@ -1,0 +1,3 @@
+---
+- name: Hello world!
+  command: echo Hello world! > /tmp/test1

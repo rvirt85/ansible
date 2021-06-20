@@ -1,0 +1,7 @@
+---
+- name: server hostname
+  lineinfile:
+    dest: /tmp/test2
+    insertafter: "<body>"   
+    content: |
+      <h1>this servers hostname is:{{  ansible_hostname }}</h1>  
